@@ -21,8 +21,4 @@ ReactDom.render(
 	document.getElementById('app')
 	);
 
-ReactDom.render(
-	<div>React form</div>,
-	document.getElementById('form'))
-
 

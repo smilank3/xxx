@@ -8,23 +8,24 @@ const ugly=require('uglifyjs-webpack-plugin');
 
 module.exports ={ 
 	context:path.resolve(__dirname,"src"),
-	entry:'./index.js',
+	entry:'./js/index.js',
 	output:{
 		filename:'bundle.js',
 		path:path.resolve(__dirname,'dist'),
-		library:'milan',
+		library:'my_library',
 		libraryTarget:'umd',
 		auxiliaryComment:"Text Comment"
 	},
 	module:{
-		rules:[{test:/\.js?$/,
+		rules:[{test:/\.(js|jsx)?$/,
 		   loader:"babel-loader"}
 		]
 	},
 	plugins:[
-		new HtmlWebpackPlugin({template:'../public/index.html'})
+		new HtmlWebpackPlugin({template:'../dist/index.html'})
 
 	]
 	
 };
 
+console.log(path.resolve(__dirname,"src/js"))
