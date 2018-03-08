@@ -2,6 +2,9 @@
 import x from './home.js'
 
 import jsx from './hello.jsx'
+
+// testting
+import hello from './test.jsx'
 function addAll(){
 	return Array.from(arguments).reduce((a,b)=>a+b)
 }

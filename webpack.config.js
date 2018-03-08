@@ -17,7 +17,7 @@ module.exports ={
 		auxiliaryComment:"Text Comment"
 	},
 	module:{
-		rules:[{test:/\.js?$/,
+		rules:[{test:/\.(js|jsx)?$/,
 		   loader:"babel-loader"}
 		]
 	},

@@ -3,5 +3,10 @@ import ReactDom from 'react-dom';
 
 ReactDom.render(
   <div> using jsx</div>,
-  document.getElementById('jsx');
+  document.getElementById('jsx')
+	);
+
+ReactDom.render(
+     <div> USING JSX</div>,
+     document.getElementById('jsx2')
 	)

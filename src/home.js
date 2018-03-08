@@ -23,6 +23,8 @@ ReactDom.render(
 
 ReactDom.render(
 	<div>React form</div>,
-	document.getElementById('form'))
+	document.getElementById('form')
+
+	)
 
 
