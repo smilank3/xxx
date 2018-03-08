@@ -1,7 +1,7 @@
 
 import x from './home.js'
 
-
+import jsx from './hello.jsx'
 function addAll(){
 	return Array.from(arguments).reduce((a,b)=>a+b)
 }
