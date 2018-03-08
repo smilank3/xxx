@@ -14,9 +14,9 @@ var bio=formatName(user);
 console.log(bio);
 
 const element=(
-		<h4>
+		<span>
 		Hello, {formatName(user)}
-		</h4>
+		</span>
 	);
 
 ReactDom.render(

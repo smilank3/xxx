@@ -1,10 +1,13 @@
 
 import x from './home.js'
 
-import jsx from './hello.jsx'
+import jsx from '../jsx/hello.jsx'
 
 // testting
-import hello from './test.jsx'
+import hello from '../jsx/test.jsx'
+
+//
+import test2 from '../jsx/test2.jsx'
 function addAll(){
 	return Array.from(arguments).reduce((a,b)=>a+b)
 }
