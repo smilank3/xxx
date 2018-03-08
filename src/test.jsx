@@ -22,4 +22,5 @@ const element=(
 ReactDom.render(
 		element,
 		document.getElementById('hello')
-	)
+	);
+
